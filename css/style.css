@@ -11,8 +11,15 @@ body{
 }
 
 header, 
-.container{
+.firt-section,
+.second-section{
     background-color: white;
+}
+
+.firt-section,
+.second-section{
+padding-left: 40px;
+border-radius: 3px;
 }
 
 button{
@@ -20,6 +27,42 @@ button{
     border-radius: 5px;
     border-radius: none;
 }
+
+h3{
+    margin-top: 30px;
+}
+
+
+.triangolo{
+    font-size: 20px;
+}
+
+
+/* entities */
+.green{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.red{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 3px; 
+}
+
+
+
+li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
 
 /* intestazione  */
 .title{
@@ -36,20 +79,17 @@ button{
     line-height: 100px;
 }
 
-/* corpo della pagina */
+/* corpo della pagina - 1 */
 .container{
     width: 70%;
     margin: auto;
     margin-top: 40px;
-    padding-left: 40px;
-    border-radius: 5px;
 }
 
 .button{
     padding: 10px 0 5px 0;
 }
     
-
 .task{
     background-color: #45abea;
     color: white;
@@ -60,6 +100,66 @@ button{
     color: grey;
     border: 1px solid lightgray;
 }
+
+
+/* corpo della pagina - 2 */
+
+.second-section{
+    margin-top: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+
+.blue{
+    background-color: #45abea;
+    color: white;
+    padding: 7px 10px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+.purple{
+    background-color: #9c72e4;
+    color: white;
+    padding: 7px 10px;
+    font-size: 10px;
+    border-radius: 10px; 
+}
+
+.lightgreen{
+    background-color: #64c0a9;
+    color: white;
+    padding: 7px 10px;
+    font-size: 10px;
+    border-radius: 10px;  
+}
+
+.orange{
+    background-color: #f29e33;
+    color: white;
+    padding: 7px 10px;
+    font-size: 10px;
+    border-radius: 10px;  
+}
+
+.violet{
+    background-color: #d863a1;
+    color: white;
+    padding: 7px 10px;
+    font-size: 10px;
+    border-radius: 10px;  
+}
+
+.senape{
+    background-color: #b0c926;
+    color: white;
+    padding: 7px 10px;
+    font-size: 10px;
+    border-radius: 10px; 
+}
+
 
 
 
