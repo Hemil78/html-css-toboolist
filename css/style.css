@@ -3,3 +3,34 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
+/* common */
+body{
+    background-color: lightgray;
+    font-family: 'Inter', sans-serif;
+}
+
+header, .container{
+    background-color: white;
+}
+
+/* intestazione  */
+.title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.top-text{
+    margin-left: 20px;
+    line-height: 100px;
+}
+    
+
+
+
+
+
