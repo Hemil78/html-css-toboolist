@@ -10,8 +10,15 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-header, .container{
+header, 
+.container{
     background-color: white;
+}
+
+button{
+    padding: 5px 8px;
+    border-radius: 5px;
+    border-radius: none;
 }
 
 /* intestazione  */
@@ -28,7 +35,35 @@ header, .container{
     margin-left: 20px;
     line-height: 100px;
 }
+
+/* corpo della pagina */
+.container{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+.button{
+    padding: 10px 0 5px 0;
+}
     
+
+.task{
+    background-color: #45abea;
+    color: white;
+    border-style: none;
+}
+
+.section{
+    color: grey;
+    border: 1px solid lightgray;
+}
+
+
+
+
 
 
 
